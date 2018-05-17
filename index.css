@@ -58,6 +58,10 @@
 
   .project-image img {
       max-width: 350px;
+      text-align: center;
+      padding: 15px;
+      background: black;
+      border-radius: 20px;
   }
 
   .tech-logo-row {
@@ -86,4 +90,33 @@
       font-size: 12px;
       width: 100%;
       text-align: center;
+  }
+
+  .projects {
+    background: #f5f7fa;
+  }
+
+  .pricefox-project {
+      background: #eb7a3d;
+
+  }
+
+  .cheeky-project {
+      background: #8334fb;
+  }
+
+  .willowy-project {
+      background: #6cc2a1;
+  }
+
+  .owllight-project {
+      background: #5b36df;
+  }
+
+  .projects p {
+      color: white;
+  }
+
+  .projects h2 {
+      color: white;
   }
