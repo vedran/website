@@ -9,6 +9,7 @@
 
   <title>Vedran Budimcic</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
   <link href="/index.css" rel="stylesheet">
@@ -18,25 +19,23 @@
 <body>
   <main role="main">
 
-    <section class="jumbotron text-center">
+    <div class="jumbotron text-center">
       <div class="container">
-        <h1 class="jumbotron-heading">I can help with
-          <span id="project-types">...</span>
+        <h1 class="jumbotron-heading mb-5">Hi. I'm Vedran Budimcic.</h1>
+
+        <h1 class="jumbotron-heading">I can help
+          <span id="project-types"></span>
         </h1>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        <a href="mailto:vedranb@gmail.com" class="btn btn-primary my-5">Let's get in touch</a>
         </p>
       </div>
-    </section>
+    </div>
 
     <div class="projects">
       <div class="container-fluid">
-
-
-        <h2 class="w-100 text-center" style="color: black; padding: 20px">My recent work</h2>
-
         <div class="row">
           <div class="col-md-12 pricefox-project">
-            <h2 class="w-100 text-center py-3">Pricefox</h2>
+            <h2 class="project-title">Pricefox</h2>
 
             <div class="project-row row">
               <div class="project-image col-md-5">
@@ -54,9 +53,9 @@
                 <div data-toggle="lightbox" data-gallery="pricefox" data-remote="/images/pricefox/pricefox-app-9.png" data-footer=""></div>
               </div>
 
-              <div class="project-text col-md-4">
-                <p>
-                  Pricefox was a mobile app that allowed anyone to find products and compare prices at nearby retail locations.
+              <div class="project-text col-md-4" style="font-size: 18px">
+                <p style="font-size: 18px">
+                  Pricefox was a mobile app that allowed users to find products and compare prices at nearby retail locations.
                 </p>
 
                 <p>
@@ -69,12 +68,7 @@
                       crowd sourcing, manual scanning, and crawling of online retail flyers.
                     </p>
 
-                    <p>
-                      I developed the Android app and the complete backend system that powered the project, including the system design, search
-                      architecture, and web crawling.
-                    </p>
-
-                    <div>Mobile app</div>
+                    <span class="tech-title">Mobile app technologies</span>
                     <div class="tech-logo-row">
                       <div class="tech-logo-wrapper">
                         <img src="/images/java.png" class="tech-logo" alt="Java">
@@ -91,10 +85,9 @@
                       <div class="tech-logo-wrapper">
                         <img src="/images/scandit.png" class="tech-logo" alt="Scandit">
                       </div>
-
                     </div>
 
-                    <div>Backend</div>
+                    <span class="tech-title">Backend system technologies</span>
                     <div class="tech-logo-row">
 
                       <div class="tech-logo-wrapper">
@@ -109,12 +102,12 @@
                         <img src="/images/postgresql.png" class="tech-logo" alt="Postgresql">
                       </div>
 
-                    </div>
-                    <div class="tech-logo-row">
                       <div class="tech-logo-wrapper">
                         <img src="/images/elasticsearch.png" class="tech-logo" alt="Elasticsearch">
                       </div>
+                    </div>
 
+                    <div class="tech-logo-row">
                       <div class="tech-logo-wrapper">
                         <img src="/images/digital-ocean.png" class="tech-logo" alt="Digital Ocean">
                       </div>
@@ -129,7 +122,7 @@
 
 
           <div class="col-md-12 cheeky-project">
-            <h2 class="w-100 text-center py-3">Cheeky</h2>
+            <h2 class="project-title">Cheeky</h2>
 
             <div class="project-row row">
               <div class="project-image col-sm-10 col-md-5">
@@ -141,9 +134,8 @@
                 <div data-toggle="lightbox" data-gallery="cheeky" data-remote="/images/cheeky/cheeky-app-3.png" data-footer=""></div>
               </div>
               <div class="project-text col-sm-10 col-md-4">
-                <p>
-                  Cheeky was a mobile app that combined Instagram with fashion product placement in a way that allowed users to get rewards
-                  for their selfies.
+                <p style="font-size: 18px">
+                  Cheeky was a mobile app that allowed any emerging influencer to earn rewards for taking fashion selfies.
                 </p>
 
                 <p>
@@ -153,14 +145,14 @@
 
                 <p>
                   Our product database was built up through affiliate partnerships with hundreds of retailers including Forever 21, Banana
-                  Republic, Walmart, and Target. This amounted tens of millions of unique products that were stored and taggable.
+                  Republic, Walmart, and Target. This amounted to tens of millions of unique products that were stored and taggable.
                 </p>
 
                 <p>
                   I developed both Android and iOS apps, the website, and the backend system that powered the entire project.
                 </p>
 
-                <div>Mobile app</div>
+                <span class="tech-title">Mobile app technologies</span>
                 <div class="tech-logo-row">
                   <div class="tech-logo-wrapper">
                     <img src="/images/react-native.png" class="tech-logo" alt="React Native">
@@ -175,7 +167,7 @@
                   </div>
                 </div>
 
-                <div>Backend</div>
+                <span class="tech-title">Backend system technologies</span>
                 <div class="tech-logo-row">
 
                   <div class="tech-logo-wrapper">
@@ -209,7 +201,7 @@
           </div>
 
           <div class="col-md-12 willowy-project">
-            <h2 class="w-100 text-center py-3">Willowy</h2>
+            <h2 class="project-title">Willowy</h2>
 
             <div class="project-row row">
               <div class="project-image col-sm-10 col-md-5">
@@ -273,7 +265,7 @@
           </div>
 
           <div class="col-md-12 owllight-project">
-            <h2 class="w-100 text-center py-3">Owllight</h2>
+            <h2 class="project-title">Owllight</h2>
 
             <div class="project-row row">
               <div class="project-image col-sm-10 col-md-5">
@@ -337,6 +329,37 @@
       </div>
     </div>
   </main>
+  
+<footer class="text-muted">
+  <div class="container">
+    <div class="footer-content">
+      <div class="mr-4">
+        <img src="/images/me.png" style="width: 175px; height: auto">
+      </div>
+      <div>
+        <p>
+          My name is Vedran Budimcic. I'm 28 years old and located in beautiful Vancouver, Canada.
+        </p>
+        <p>
+          I've helped companies build websites, mobile apps, backend systems, web crawlers, MVPs, and more.
+        </p>
+
+        <p>
+          I'm experienced in taking projects from the requirement gathering stage and developing them through to product launch.
+        </p>
+          
+        <p>
+          I'm a self starter and have years of experience working remotely.
+        </p>
+
+        <div>
+          <a href="mailto:vedranb@gmail.com" class="btn btn-primary mt-3">
+            Let's get in touch
+          </a>
+        </div>
+      </div>
+    </div>
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -350,16 +373,17 @@
   <script>
     var typed = new Typed("#project-types", {
       strings: [
-        "proof of concepts",
-        "web development",
-        "minimum viable products",
-        "backend development",
-        "special projects",
-        "mobile apps",
-        "extra bandwidth",
+        "with web development.",
+        "build your MVP.",
+        "with mobile apps.",
+        "develop proof of concepts.",
+        "with backend development.",
+        "provide extra bandwidth.",
       ],
-      typeSpeed: 80,
-      backSpeed: 50,
+      typeSpeed: 30,
+      backSpeed: 60,
+      backDelay: 800,
+      smartBackspace: true,
       loop: true,
     });
 
